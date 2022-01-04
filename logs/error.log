@@ -1,0 +1,34 @@
+2021-12-01 10:39:32 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Posts` could not be found. in C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php on line 245
+Exception Attributes: array (
+  0 => 'for alias `Posts`',
+)
+Stack Trace:
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Datasource\Locator\AbstractLocator.php:68
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php:205
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php:128
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Controller\Controller.php:315
+- C:\wamp64\www\cakephp\socialmedia\src\Controller\PostsController.php:7
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Controller\Controller.php:539
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:140
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Controller\ControllerFactory.php:115
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\BaseApplication.php:317
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\Runner.php:77
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:174
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\Middleware\BodyParserMiddleware.php:157
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php:161
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php:68
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php:126
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php:60
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\Runner.php:73
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\Runner.php:58
+- C:\wamp64\www\cakephp\socialmedia\vendor\cakephp\cakephp\src\Http\Server.php:90
+- C:\wamp64\www\cakephp\socialmedia\webroot\index.php:40
+
+Request URL: /
+
+
